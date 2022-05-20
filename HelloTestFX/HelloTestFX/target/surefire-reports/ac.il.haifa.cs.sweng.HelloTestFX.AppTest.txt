@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: ac.il.haifa.cs.sweng.HelloTestFX.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.587 s <<< FAILURE! - in ac.il.haifa.cs.sweng.HelloTestFX.AppTest
+ac.il.haifa.cs.sweng.HelloTestFX.AppTest.test_button_click(FxRobot)  Time elapsed: 0.78 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: TextInputControl has text "Hello World"
+     but: was TextField with text: ""
+	at ac.il.haifa.cs.sweng.HelloTestFX.AppTest.test_button_click(AppTest.java:44)
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ac.il.haifa.cs.sweng.HelloTestFX.AppTest" time="3.587" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="javafx.runtime.version" value="14+9"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/test-classes:/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/classes:/Users/aiman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/aiman/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/aiman/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/aiman/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/aiman/.m2/repository/org/testfx/testfx-junit5/4.0.16-alpha/testfx-junit5-4.0.16-alpha.jar:/Users/aiman/.m2/repository/org/testfx/testfx-core/4.0.16-alpha/testfx-core-4.0.16-alpha.jar:/Users/aiman/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aiman/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/Users/aiman/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14-mac.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14-mac.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14-mac.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-fxml/14/javafx-fxml-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-fxml/14/javafx-fxml-14-mac.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="javafx.version" value="14"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="sun.boot.library.path" value="/Users/aiman/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/surefire/surefirebooter18313130462278103652.jar /Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/surefire 2022-05-20T14-37-34_341-jvmRun1 surefire3392032287378006880tmp surefire_02783416074316957956tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/test-classes:/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/classes:/Users/aiman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/aiman/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/aiman/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/aiman/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/aiman/.m2/repository/org/testfx/testfx-junit5/4.0.16-alpha/testfx-junit5-4.0.16-alpha.jar:/Users/aiman/.m2/repository/org/testfx/testfx-core/4.0.16-alpha/testfx-core-4.0.16-alpha.jar:/Users/aiman/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aiman/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/Users/aiman/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14-mac.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14-mac.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14-mac.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-fxml/14/javafx-fxml-14.jar:/Users/aiman/.m2/repository/org/openjfx/javafx-fxml/14/javafx-fxml-14-mac.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aiman"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Users/aiman/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX/target/surefire/surefirebooter18313130462278103652.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="aiman"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/aiman/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/1_/14mpw74s1t3glcrz819p54zm0000gn/T/"/>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/Users/aiman/IdeaProjects/HelloTestFX/HelloTestFX"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/aiman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test_button_test(FxRobot)" classname="ac.il.haifa.cs.sweng.HelloTestFX.AppTest" time="2.489"/>
+  <testcase name="test_label_is_empty(FxRobot)" classname="ac.il.haifa.cs.sweng.HelloTestFX.AppTest" time="0.275"/>
+  <testcase name="test_button_click(FxRobot)" classname="ac.il.haifa.cs.sweng.HelloTestFX.AppTest" time="0.78">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: TextInputControl has text "Hello World"
+     but: was TextField with text: ""
+	at ac.il.haifa.cs.sweng.HelloTestFX.AppTest.test_button_click(AppTest.java:44)
+]]></failure>
+    <system-err><![CDATA[May 20, 2022 2:37:43 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 17 by JavaFX runtime of version 14
+]]></system-err>
+  </testcase>
+</testsuite>
